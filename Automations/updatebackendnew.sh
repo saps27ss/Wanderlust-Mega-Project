@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Retrieve the public IP address of the specified EC2 instance
-ipv4_address="164.164.196.101"
+ipv4_address="103.251.252.103"
 
 # Path to the .env file
 file_to_find="../backend/.env.docker"
