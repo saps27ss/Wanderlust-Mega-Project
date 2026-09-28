@@ -1,9 +1,9 @@
 pipeline {
-agent any
+agent {label 'slave'}
 
 ```
 environment {
-    SONAR_HOME = tool "sonar"
+    SONAR_HOME = tool "Sonar"
     DOCKER_REPO = "swapnilshende27"
 }
 
