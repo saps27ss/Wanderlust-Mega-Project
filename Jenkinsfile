@@ -33,7 +33,7 @@ stages {
     stage('Git Checkout') {
         steps {
             git branch: 'main',
-                credentialsId: 'github',
+                credentialsId: 'Githubcred',
                 url: 'https://github.com/saps27ss/Wanderlust-Mega-Project'
         }
     }
